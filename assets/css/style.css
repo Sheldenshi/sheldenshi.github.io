@@ -7471,12 +7471,18 @@ h6 {
 
 .skills-flex-item {
   padding: 5px;
-  width: 200px;
-  height: 200px;
+  width: 19%;
+  /*height: 200px;*/
   margin-top: 10px;
   margin-right: 10px;
     margin-left: 10px;
-  line-height: 200px;
+  /*line-height: 200px;*/
+}
+
+@media (max-width: 500px) {
+	.skills-flex-item {
+		width: 80px;
+	}
 }
 
 
